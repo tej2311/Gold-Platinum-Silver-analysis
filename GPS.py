@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
 
 # Load datasets
-gold_prices = pd.read_csv('C:/Users/tejga/OneDrive/Documents/Gold.csv')
-platinum_prices = pd.read_csv('C:/Users/tejga/OneDrive/Documents/Silver.csv')
-silver_prices = pd.read_csv('C:/Users/tejga/OneDrive/Documents/Platinum.csv')
+gold_prices = pd.read_csv('Gold.csv')
+platinum_prices = pd.read_csv('Platinum.csv')
+silver_prices = pd.read_csv('Silver.csv')
 
 
 # Convert date columns to datetime and remove timezone information
